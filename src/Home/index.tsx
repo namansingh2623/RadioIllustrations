@@ -37,7 +37,7 @@ const Home = () => {
     return (
         <Grid container spacing={8} >
             <Grid size={{lg: 12, md: 8, sm: 12}}>
-                <img src={HomeBg} alt="Home background" style={{ width: '100%', height: 400, objectFit: 'cover', display: 'block' }} />
+                <img src={HomeBg} alt="Home background" style={{ height: 400, objectFit: 'cover', display: 'block' }} />
             </Grid>
 
             <Grid size={{lg: 12, md: 8, sm: 12}}>

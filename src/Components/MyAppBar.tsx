@@ -42,7 +42,7 @@ function MyAppBar(props: MyAppBarProps) {
     };
     const pages = [
         { id: 1, name: 'About', route: '/about' },
-        { id: 2, name: 'Pricing', route: '/pricing' },
+        { id: 2, name: 'InfoGraphics', route: '/infographics' },
         { id: 3, name: 'Blog', route: '/blog' },
     ];
     const handleClick = (route: string) => {

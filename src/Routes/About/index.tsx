@@ -6,7 +6,8 @@ import profile from "../../assets/profile.jpg";
 const About = () => {
     return (
         <div>
-            <Grid container spacing={2}       justifyContent="center"
+            <Grid container spacing={2}
+                  justifyContent="center"
                   alignItems="center"
                   sx={{ minHeight: '100vh', textAlign: 'center', px: 4 }} >
                 <Grid size={12}>

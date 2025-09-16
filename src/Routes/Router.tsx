@@ -3,11 +3,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from '../Home';
 import MyAppBar from "../Components/MyAppBar";
 import About from "./About";
+import infoGraphics from "./InfoGraphics";
 
 
 const router = createBrowserRouter([
     { path: '/', Component: Home },
-    { path: '/about', Component: About }
+    { path: '/about', Component: About},
+    {path:'infographics', Component: infoGraphics},
     // { path: '/products', element: <Products /> },
 ]);
 
